@@ -60,7 +60,6 @@ function rnd(max) {
         if (RndNums[i] == num)
             return rnd(max);
     }
-    console.log(num+" "+max)
     RndNums.push(num);
     return num;
 }
