@@ -48,7 +48,7 @@ function Create() {
 
     for (let i = 0; i < n; i++) {
         let item = divOpen;
-        let j = rnd(n);
+        let j = rnd(23);
         item += `<h2>${ex[j]}</h2>`;
         item+=`<p>${descr[j]}</p>`;
         item += divClose;
