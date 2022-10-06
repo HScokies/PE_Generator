@@ -1,7 +1,7 @@
 let container = document.getElementById("flex");
 const divOpen = "<div class=\"item\">";
 const divClose = "</div>";
-let RndNums = [];
+let RndNums;
 function Create() {
     RndNums = [];
     container.innerHTML = null;
@@ -43,7 +43,6 @@ function Create() {
 "Присед, отжимание, присед с подъемом и поочередные выпады на обе ноги",
 "Принять упор на разведенных в разные стороны руки, попеременно переносить вес с одной руки на другую, совершая одно отжимание"
     )
-    console.log(descr.length+" "+ex.length);
     if (n > 23 || n < 1) return;
 
     for (let i = 0; i < n; i++) {
@@ -61,6 +60,7 @@ function rnd(max) {
         if (RndNums[i] == num)
             return rnd(max);
     }
+    console.log(num+" "+max)
     RndNums.push(num);
     return num;
 }
