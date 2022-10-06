@@ -111,9 +111,9 @@ header button:hover{
     padding-bottom: 1%;
 }
 .item{
-    min-width: 230px;
-    margin-top: 1%;
-    outline: 1px solid #fd5a0e;
+    min-width: 250px;
+    margin-top: 3%;
+    border: 1px solid #fd5a0e;
     border-radius: 20px;
     background-color: rgba(255, 255, 255, 0.45);
     width: 45%;
